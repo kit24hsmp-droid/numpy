@@ -1,0 +1,12 @@
+import numpy as np
+arr = np.array([1,2,3,4,5,4,4])
+x = np.where(arr == 4) # this is used to find the index of the element in the array
+print(x) # the index 4is at 3, 5 and 6 
+
+# find the index where the values are odd 
+import numpy as np
+arr = np.array([1,2,3,4,5,6,7,8])
+x =np.where(arr%2 ==1) # this is used to find the index of the odd values in the array
+print('the index is odd values:', x) # this shows where odds positions lies
+
+
